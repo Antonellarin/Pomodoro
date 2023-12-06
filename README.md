@@ -24,14 +24,14 @@ La aplicación Pomodoro es una herramienta simple basada en la técnica de gesti
 2. Haz clic en "Iniciar" para comenzar una sesión de trabajo.
 3. Descansa durante los intervalos de descanso.
    
-   #Proximo
+   # Proximo
 4. La aplicación te notificará cuando se complete cada sesión.
 
 
 
 ## Contacto
 
-Si tienes preguntas o sugerencias, no dudes en ponerte en contacto con nosotros en [antonellaarin@gmail.com](mailto:antonellaarin@gmail.com).
+Si tienes preguntas o sugerencias, no dudes en ponerte en contacto conmigo en [antonellaarin@gmail.com](mailto:antonellaarin@gmail.com).
 
 ¡Gracias por usar la aplicación Pomodoro!
 
