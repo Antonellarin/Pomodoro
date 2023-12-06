@@ -1,0 +1,107 @@
+body {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+  }
+  
+  .container {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  /* Estilos del reloj circular */
+  .circle-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: circle();
+    border: 8px solid #ff00dd; 
+    border-top: 8px solid transparent;
+    border-radius: 50%;
+    animation: rotate 1s linear infinite;
+  }
+  .counter {
+    font-family: 'sans-serif' ;
+    font-size: 24px; 
+    font-weight: bold; 
+    color:rgb(214, 40, 136); 
+  }
+  .counter-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    font-family: 'sans-serif'; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color:rgb(214, 40, 136); 
+  }
+
+
+  @keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Estilos adicionales para el mensaje de "¡Terminó el conteo!" */
+  p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff00dd; /* Azul Bootstrap */
+  }
+  
+  /* Ajustes para el botón de reinicio */
+  .btn-primary {
+    background-color: #a735dc; /* Rojo Bootstrap */
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #a735dc; /* Rojo Bootstrap oscuro al pasar el ratón */
+  }
+  
+  /* Ajustes para el botón de inicio */
+  .btn-success {
+    background-color: #ff00ff; /* Violeta o Fuccia */
+    border: none;
+  }
+  
+  .btn-success:hover {
+    background-color: #cc00cc; /* Violeta o Fuccia oscuro al pasar el ratón */
+  }
+  /* Estilos personalizados para el formulario */
+.custom-form {
+  margin-top: 15px; /* Ajusta la separación entre el formulario y la barra según tus preferencias */
+}
+
+/* Estilos personalizados para el campo de entrada */
+.custom-form-group {
+  margin-bottom: 15px; /* Ajusta el espacio entre el campo de entrada y el botón según tus preferencias */
+}
+
+.custom-form-control {
+  /* Agrega estilos específicos para el campo de entrada según tus preferencias */
+  width: 500px; /* Ajusta el ancho del campo de entrada según tus preferencias */
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Estilos personalizados para el botón */
+.custom-btn {
+  background-color: #ff00ff; /* Cambia el color del botón según tus preferencias */
+  border-radius: 10px;
+}
+
+.custom-btn:hover {
+  background-color: #cc00cc; /* Cambia el color del botón al pasar el ratón según tus preferencias */
+}
